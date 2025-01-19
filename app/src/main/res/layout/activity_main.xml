@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+
+
+    <!-- Username Input Field -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Username"
+        android:background="@drawable/rounded_edittext"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:inputType="text" />
+
+    <!-- Password Input Field -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Password"
+        android:background="@drawable/rounded_edittext"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:inputType="textPassword" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Login"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="#FFF"
+        android:background="@drawable/rounded_button" />
+
+    <!-- Forgot Password Text -->
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Forgot Password?"
+        android:textColor="@color/teal_700"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Sign Up Button (for new users) -->
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:backgroundTint="@color/green_500"
+        android:textColor="#FFF"
+        android:background="@drawable/rounded_button" />
+
+    <!-- Switch to Sign Up or Login -->
+
+</LinearLayout>

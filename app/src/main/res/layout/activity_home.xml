@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <!-- Chat with Friends Button -->
+    <Button
+        android:id="@+id/btnChatWithFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat with Friends"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp" />
+
+    <!-- Report to Server Button -->
+    <Button
+        android:id="@+id/btnReportToServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report to Server"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp" />
+</LinearLayout>
